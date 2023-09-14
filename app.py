@@ -1,15 +1,9 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Dec-18
-'''
-
 import pickle
 import streamlit as st
 import numpy as np
 
 
-st.header('Book Recommender System Using Machine Learning')
+st.header('Book Recommender System Using K Nearest Neighbors')
 model = pickle.load(open('artifacts/model.pkl','rb'))
 book_names = pickle.load(open('artifacts/book_names.pkl','rb'))
 final_rating = pickle.load(open('artifacts/final_rating.pkl','rb'))
