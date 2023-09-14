@@ -12,6 +12,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
 
 ## About The Project
 
@@ -41,12 +42,14 @@ To get started with the project, follow these instructions.
 2. Run the Book Recommender.ipynb file
    
 3. Run the command on terminal: streamlit run app.py
-   
-4. Open the web app in your browser.
-   
-5. Select a book from the dropdown menu.
 
-6. Click the "Show Recommendation" button to receive personalized book recommendations.
+### Usage
+   
+1. Open the web app in your browser.
+   
+2. Select a book from the dropdown menu.
+
+3. Click the "Show Recommendation" button to receive personalized book recommendations.
 
 ### Contributing
 Contributions are welcome! If you'd like to contribute to the project
